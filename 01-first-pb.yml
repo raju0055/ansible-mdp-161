@@ -11,6 +11,6 @@
 
   - name: update content
     copy:
-      dest: /home/centos/n3_dir
+      dest: /home/centos/n3_file.txt
       content: hello
 ...
