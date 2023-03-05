@@ -8,4 +8,9 @@
     file:
       name: /home/centos/n3_dir
       state: directory
+
+  - name: update content
+    copy:
+      dest: /home/centos/n3_dir
+      content: hello
 ...
